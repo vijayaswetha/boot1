@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Complete responsive website using bootstrap</title>
+  </head>
+  <body>
+    <header class="container-fluid p-2">
+      <section id="top" class="bg-primary">
+        <div class="top container">
+         <div class="row py-1">
+            <div class="col-12 col-lg-6">
+                <p class="text-light m-0"><b>Email:sandys2@gmail.com</b></p>
+            </div>
+            <div class="col-12 col-lg-6 text-lg-end">
+                <p class="text-light m-0"><b>ph.no:+141 7689453431</b></p>
+            </div>
+         </div>
+        </div>
+      </section>
+      <!--end top-->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            WebTech
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link px-3 active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#team">Our Team</a>
+              </li>
+
+              <li class="nav-item px-3 dropdown">
+                <a class="nav-link dropdown-toggle" href="#service" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Service
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#service">Web Design</a></li>
+                  <li><a class="dropdown-item" href="#service">Web Developement</a></li>
+                 </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#faq" tabindex="-1">FAQ</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgkkcr_g4rZBJOtqnTiOE435ZOeat6p8SPbm8S2Jkual8KoPx7DYCjSEOLB5p84_BlQzU&usqp=CAU" width="10%" alt="facebook"/></a>
+      
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--end nav-->
+
+      <div id="ourSlide" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#ourSlide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#ourSlide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#ourSlide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="image-fluid" width="100%" height="400px" src="https://images.yourstory.com/cs/1/4f817d404fd711e9a6d103aff990ce4d/websitedesigingcompanyinFaridabadwebstod-1587629831618.png?w=1152&fm=auto&ar=2:1&mode=crop&crop=faces"class="d-block w-100" alt="slider-1">
+          </div>
+          <div class="carousel-item">
+            <img width="100%" height="400px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6RA6fkrP2OYT2tHXaDKACtcWwBIw10I1YPQ&usqp=CAU" class="d-block w-100" alt="slider-2">
+          </div>
+          <div class="carousel-item">
+            <img  width="100%" height="400px" src="https://www.adamenfroy.com/wp-content/uploads/15-Best-Web-Design-Software-of-2022-Ranked-and-Reviewed.jpg" class="d-block w-100" alt="slider-3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#ourSlide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#ourSlide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--slide-->
+    </header>
+    <!--end header-->
+
+    <section id="about" class="container-fluid py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 text-center">
+            <img  class="image-fluid"  height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIApD8eXIeXXuTpT3tJbqdNOJtTGMVMiRLYg&usqp=CAU" alt="about"/>
+          </div>
+          <div class="col-12 col-lg-6 text-center">
+            <h1 class="display-5"><b>About Us</b></h1>
+            <p>
+              This is the fast growing software company that keeps culture and creativity as its core 
+              </p>
+              <p>
+              Our mission is to inspire and unlock creativity with liberating technology
+            </p>
+            <h2 class="display-6">Follow Us</h2>
+            <img src="data:image/png;base64,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" width=5%  alt="facebook"/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Skype_logo_%282019%E2%80%93present%29.svg" width="5%" alt="skype"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end about-->
+
+    <section id="service"  class="container-fluid py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-6"><b>Our Services</b></h2>
+            <p>We provide best services to the people</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg>
+            
+          </div>
+        </div>
+
+        <div class="row pt-5">
+
+          
+          <div class="col-12 col-lg-3 mb-3 ">
+            <div class="border p-2 text-center">
+              <img width="50%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv6pBxEOnt6_FoXX9jnzehl982eUrmeXchwQ&usqp=CAU" height="200px" />
+              <h5 class="py-3">WEB DESIGN</h5>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+               class="btn btn-outline-dark">Get a Quote</button>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 mb-3">
+            <div class="border p-2 text-center">
+              <img image-fluid width="70%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpI6TZTP_aMUpI9E3WE98v9HAivc2IXa7USQ&usqp=CAU" height="200px" />
+              <h5 class="py-3">WEB DEVELOPMENT</h5>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+               class="btn btn-outline-dark">Get a Quote</button>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 mb-3">
+            <div class="border p-2 text-center">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjkHvB35uYgFzQWGxCAs5gib5_m9UNkEKCVg&usqp=CAU" height="200px" width="50%" />
+              <h5 class="py-3">WEB RESEARCH</h5>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+               class="btn btn-outline-dark">Get a Quote</button>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 mb-3">
+            <div class="border p-2 text-center">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq8w8-KbVhCxa5wNv9dVBOitd-SKuDGQQrhg&usqp=CAU" height="200px" width="70%" />
+              <h5 class="py-3">WEB ANALYTICS</h5>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+               class="btn btn-outline-dark">Get a Quote</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end service-->
+
+    <section  id="team" class="container-fluid py-5">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-6">Meet Our Team</h2>
+            <p>we are the best team to work together</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+              <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+            </svg>       
+          </div>
+        </div>
+
+        <div class="row pt-5">
+          <div class="col-12 col-lg-10 offset-lg-1">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <div class="card">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonD1-u4Ki4xhw9wQCK4lKWC8mXuU9UZJ-YA&usqp=CAU" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h4><i>M.Maneesh</i></h4>
+                    <h5>Director</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <div class="card">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt0wI7HxSc3D5Lt0HLnbHKko9saBsTz3bO9w&usqp=CAU" class="card-img-top" alt="...">
+
+                  <div class="card-body text-center">
+                    <h4><i>B.Bhanu</i></h4>
+                    <h5>Team Leader</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <div class="card">
+                  <img src="data:image/png;base64,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" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h4><i>K.Nisha</i></h4>
+                    <h5>Web Developer</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end team-->
+
+<section  class="container-fluid py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="display-6">
+          Client Feedback
+        </h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+      </div>
+    </div>
+
+    <!--end section titile-->
+
+    <div class="row py-3">
+      <div class="col-12 text-center">
+
+        <figure>
+          <blockquote class="blockquote">
+            <img class="rounded-circle bg-primary"  src="https://5.imimg.com/data5/FF/WX/MY-2/assdd-500x500.png" width="10%" alt=""/>
+            <p>A well-known quote, contained in a blockquote element.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="faq" class="container-fluid py-5">
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2 class="display-6"><b>Frequently Asked Questions</b></h2>
+      <p>What are the best courses</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="row py-5">
+
+      <div class="col-12 col-lg-6">
+        <div class="accordion" id="accordion_1">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading_1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="true" aria-controls="collapse_2">
+                1. What is the specific purpose of your site?
+              </button>
+            </h2>
+            <div id="collapse_1" class="accordion-collapse collapse show" aria-labelledby="heading_1" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                You or someone you're working with might want the website for a variety of reasons. Websites can inform the public, encourage communication, offer promotions or provide business services, such as e-commerce or appointment scheduling. Consider why you want to create a website and what its purpose will be.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading_2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
+                2. Is this a website redesign?
+              </button>
+            </h2>
+            <div id="collapse_2" class="accordion-collapse collapse" aria-labelledby="heading_2" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Creating a new website is a different process than redesigning an existing one. If you're updating a website, there are other questions that you may ask yourself to help you create a better site. Some questions you can ask if you're redesigning a website include why you're redesigning the page, what you like about the old website and what features need to change.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading_3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_3" aria-expanded="false" aria-controls="collapse_3">
+                3. What are your technical needs?
+              </button>
+            </h2>
+            <div id="collapse_3" class="accordion-collapse collapse" aria-labelledby="heading_3" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                When designing a website, you may want to ask yourself what technical specifications your site may need to perform properly. For example, if the website has graphics, music and multiple pages with various features, it may require more bandwidth than a site that only contains a background and text. Try to think about your technical capacity in advance to ensure that your website runs smoothly.
+              </div>
+            </div>
+          </div>
+        </div>   
+      </div>
+    <!--end faq1-->
+
+    <div class="col-12 col-lg-6">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_4">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_4" aria-expanded="true" aria-controls="collapse_4">
+              4. What's the scope of your project?
+            </button>
+          </h2>
+          <div id="collapse_4" class="accordion-collapse collapse " aria-labelledby="heading_4" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Try to plan the main function and scope of your project before the creation process. Think about your desired website size and the main functions that you need. Planning the range of services your website provides in advance helps you focus while making the site and may reduce the overall price if you're using external assets or contractors.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_5" aria-expanded="false" aria-controls="collapse_5">
+              5. What's your budget?
+            </button>
+          </h2>
+          <div id="collapse_5" class="accordion-collapse collapse" aria-labelledby="heading_5" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The amount of money you have to spend on a website can influence the design process. A large budget can help you create a complicated website with multiple features and help from outside contractors, while a smaller budget may require fewer functions and limited staff. When designing a website, try to determine how much money you can spend on the project and the approximate cost of the features you need.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_6" aria-expanded="false" aria-controls="collapse_6">
+              6. What functions do you require for your website?
+
+            </button>
+          </h2>
+          <div id="collapse_6" class="accordion-collapse collapse" aria-labelledby="heading_6" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              While you may want several different functions or features for your website, deciding which ones are necessary can help you prioritize your work and help you make decisions if you're limited by budget or if you encounter any challenges. Consider brainstorming a brief list of tasks that you require your website to perform. You can use your core values and the website's specific purpose to help you create your list.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+</div>
+</section>
+
+<section id="contact" class="container-fluid py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="display-6"><b>Contact Us</b></h2>
+        <p>contact us at any time</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+        </svg>
+        
+        <div class="row pt-5" >
+
+          <div class="col-12 col-lg-6">
+            <img height="200px" src="data:image/jpeg;base64,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" alt="contact"/>
+            <p class="text-center pt-3">Your data is very secured. you may contact us at any time.please fill the required details.</p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <form action="">
+            <div class="form-floating">
+              <input  required type="text" class="form-control mb-3" id="floatingName" placeholder="YoursName">
+              <label for="floatingName">Your Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input  required type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+             
+            <div>
+              <textarea required type=text col="30" rows="2" class="form-control mb-3" placeholder="Details">
+              </textarea>
+            </div>
+            <button   class="btn btn-primary form-control mt-3">Send</button>
+
+          </form>
+    </div>
+    </div>
+
+    </div>
+  </section>
+
+
+  <footer class="container-fluid bg-info py-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg></a>
+      </div>
+      <div class="col-12 col-lg-2 offset-lg-5 mt-3">
+        <form class="action">
+          <div class="input-group mb-3">
+            <input  required type="text" class="form-control" placeholder="Your Email" aria-label="YourEmail" aria-describedby="button-addon2">
+            <button class="btn btn-primary" type="button" id="button-addon2">Subscribe</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-12 text-center mt-2">
+        <p text-warning>CopyRight &Copy:company name</p>
+      </div>
+    </div>
+  </footer>
+
+  
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form action="">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get a Quote</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        
+          <div class="form-floating">
+            <input  required type="text" class="form-control mb-3" id="floatingName" placeholder="YoursName">
+            <label for="floatingName">Your Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input  required type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input  required type="text" class="form-control" id="floatingPhone" placeholder="+888 000000">
+            <label for="floatingPhone">Phone Number</label>
+          </div>  
+          <select required class="form-select mb-3" multiple aria-label="multiple select example">
+            <option value="0">SELECT SERVICE</option>
+            <option value="WEB DESIGN">WEB DEVELOPMENT</option>
+            <option value="WEB DEVELOPEMENT">WEB DEVELPOMENT</option>
+            <option value="WEB RESEARCH">WEB RESEARCH</option>
+            <option value="WEB ANALYTICS">WEB ANALYTICS</option>
+          </select>
+          <div>
+            <textarea required type=text col="30" rows="5" class="form-control" placeholder="Details">
+            </textarea>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
